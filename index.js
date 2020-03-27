@@ -1,18 +1,20 @@
 new Vue(
     {
-        el: "#bulbapp",
-        data: function () {
-            return {
-                name: "Stephen",
-                isBulbOn: true,
-                isBulbOff: false
-            }
-        },
-        methods: {
-            showOrHide:function(){
-                this.isBulbOn = !this.isBulbOn
-                this.isBulbOff = !this.isBulbOff
-            }
+    el: "#bulb",
+    data: function(){
+        return {
+            isBulbon:false,
+            isBulboff:true,
+        }
+    },
+    
+    methods:{
+    showOrHide: function(){
+        this.isBulbon = !this.isBulbon
+        this.isBulboff = !this.isBulboff
+        {
+
         }
     }
-);
+}
+});
